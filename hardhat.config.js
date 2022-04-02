@@ -8,13 +8,16 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    /*
-    mumbai: {
+   
+    rinkeby: {
       // Infura
       // url: `https://polygon-mumbai.infura.io/v3/${infuraId}`
-      url: "https://rpc-mumbai.matic.today",
-      accounts: [process.env.privateKey]
+      // url: "https://rpc-mumbai.matic.today",
+      // accounts: [process.env.privateKey]
+      url: "https://rinkeby.infura.io/v3/0cd531e08635430d805a79f589b47bae",
+      accounts: ["03ad2ebf146d16b644f9df29df13d3707cc95c57add39a456bec290877753f43"]
     },
+     /*
     matic: {
       // Infura
       // url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
